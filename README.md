@@ -1,6 +1,6 @@
 # multi-gitter Scripts
 
-Central management of my git repositories via [multi-gitter](https://github.com/lindell/multi-gitter) script collection.
+Central management of my git repositories via [multi-gitter](https://github.com/lindell/multi-gitter) scripts.
 
 ## How to run a job
 
