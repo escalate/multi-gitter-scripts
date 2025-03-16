@@ -1,0 +1,76 @@
+# Contributing to ${REPOSITORY}
+
+First off, thanks for taking the time to contribute! ❤️ We appreciate your efforts to improve this project and make it better for everyone.
+
+## Table of Contents
+
+- [How to Contribute](#how-to-contribute)
+- [Reporting Bugs](#reporting-bugs)
+- [Suggesting Enhancements](#suggesting-enhancements)
+- [Commit Guidelines](#commit-guidelines)
+- [Testing](#testing)
+- [Submitting Changes](#submitting-changes)
+- [Code of Conduct](#code-of-conduct)
+
+---
+
+## How to Contribute
+
+We encourage all kinds of contributions, from bug reports to feature requests and code improvements. Please follow the guidelines below to ensure a smooth process.
+
+## Reporting Bugs
+
+Bugs should be reported via [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues). A good bug report should include:
+
+- Clear steps to reproduce the issue
+- Expected vs. actual behavior
+- Relevant logs or error messages
+- Your environment details (OS, version, dependencies, etc.)
+
+## Suggesting Enhancements
+
+Enhancement suggestions should also be submitted through [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues) and should include:
+
+- A clear and descriptive title
+- A detailed explanation of the suggested enhancement
+- Any potential alternatives or references to similar implementations
+
+## Commit Guidelines
+
+All commit messages must follow the [Conventional Commits](https://www.conventionalcommits.org/) format:
+
+```
+<type>(<scope>): <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+Example:
+
+```
+feat(auth): add OAuth2 support
+```
+
+Allowed types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`.
+
+## Testing
+
+All tests must pass before submitting any changes. The test suite runs via GitHub Actions, and contributions will not be merged unless all tests are green.
+
+- Run tests locally before pushing changes.
+- Test files are located in the [.github/workflows/test.yml](.github/workflows/test.yml) directory.
+
+## Submitting Changes
+
+1. Fork the repository and create a new branch.
+2. Ensure all tests pass.
+3. Submit a pull request (PR) with a clear description.
+4. Your PR will be reviewed, and you may be asked to make adjustments before merging.
+
+## Code of Conduct
+
+Please follow our [Code of Conduct](CODE_OF_CONDUCT.md) to maintain a welcoming and respectful community.
+
+Thank you for your contributions! 🚀
