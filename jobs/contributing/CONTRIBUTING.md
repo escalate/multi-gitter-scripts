@@ -65,6 +65,13 @@ All tests must pass before submitting any changes. The test suite runs via [GitH
 - Add suitable test cases for any new functionality or changes.
 - Run tests locally before pushing changes.
 
+## Development Environment
+
+To set up your local development environment:
+
+1. Clone the repository.
+2. Check the [README.md](README.md) for setup details.
+
 ## Submitting Changes
 
 1. Fork the repository and create a new branch.
