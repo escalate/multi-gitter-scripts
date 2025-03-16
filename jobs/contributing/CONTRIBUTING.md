@@ -22,8 +22,6 @@ We encourage all kinds of contributions, from bug reports to feature requests an
 
 Before reporting a bug, please check the existing issues on [GitHub Issues](https://github.com/${REPOSITORY}/issues?q=label%3Abug) to avoid duplicates. If your issue is not listed, you can report it via [GitHub Issues](https://github.com/${REPOSITORY}/issues/new). A good bug report should include:
 
-Bugs should be reported via . A good bug report should include:
-
 - Clear steps to reproduce the issue
 - Expected vs. actual behavior
 - Relevant logs or error messages
@@ -63,8 +61,8 @@ Allowed types: `feat`, `fix`, `build`, `chore`, `ci`, `docs`, `style`, `refactor
 
 All tests must pass before submitting any changes. The test suite runs via [GitHub Actions](https://github.com/${REPOSITORY}/actions), and contributions will not be merged unless all tests are successful.
 
-- Add suitable test cases for any new functionality or changes.
 - Test files are located in the [.github/workflows/test.yml](.github/workflows/test.yml) directory.
+- Add suitable test cases for any new functionality or changes.
 - Run tests locally before pushing changes.
 
 ## Submitting Changes
