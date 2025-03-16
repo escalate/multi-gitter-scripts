@@ -62,8 +62,8 @@ Allowed types: `feat`, `fix`, `build`, `chore`, `ci`, `docs`, `style`, `refactor
 
 All tests must pass before submitting any changes. The test suite runs via [GitHub Actions](https://github.com/${REPOSITORY}/actions), and contributions will not be merged unless all tests are successful.
 
-- Test files are located in the [.github/workflows/test.yml](.github/workflows/test.yml) directory.
-- Add suitable test cases for any new functionality or changes.
+- Test steps are located in the [.github/workflows/test.yml](.github/workflows/test.yml) file.
+- Add suitable tests for any new functionality or changes.
 - Run tests locally before pushing changes.
 
 ## Development Environment
