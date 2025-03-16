@@ -1,4 +1,4 @@
-# Contributing to ${REPOSITORY}
+# Contribution Guidelines
 
 First off, thanks for taking the time to contribute! ❤️ We appreciate your efforts to improve this project and make it better for everyone.
 
@@ -20,7 +20,7 @@ We encourage all kinds of contributions, from bug reports to feature requests an
 
 ## Reporting Bugs
 
-Before reporting a bug, please check the existing issues on [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues?q=label%3Abug) to avoid duplicates. If your issue is not listed, you can report it via [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues/new). A good bug report should include:
+Before reporting a bug, please check the existing issues on [GitHub Issues](https://github.com/${REPOSITORY}/issues?q=label%3Abug) to avoid duplicates. If your issue is not listed, you can report it via [GitHub Issues](https://github.com/${REPOSITORY}/issues/new). A good bug report should include:
 
 Bugs should be reported via . A good bug report should include:
 
@@ -31,7 +31,7 @@ Bugs should be reported via . A good bug report should include:
 
 ## Suggesting Enhancements
 
-Before suggesting an enhancement, please check the existing issues on [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues?q=label%3Aenhancement) to avoid duplicates. If your suggestion is not listed, enhancement suggestions should also be submitted through [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues/new) and should include:
+Before suggesting an enhancement, please check the existing issues on [GitHub Issues](https://github.com/${REPOSITORY}/issues?q=label%3Aenhancement) to avoid duplicates. If your suggestion is not listed, enhancement suggestions should also be submitted through [GitHub Issues](https://github.com/${REPOSITORY}/issues/new) and should include:
 
 - A clear and descriptive title
 - A detailed explanation of the suggested enhancement
@@ -39,7 +39,9 @@ Before suggesting an enhancement, please check the existing issues on [GitHub Is
 
 ## Commit Guidelines
 
-All commit messages must follow the [Conventional Commits](https://www.conventionalcommits.org/) format:
+All commit messages must follow the [Conventional Commits](https://www.conventionalcommits.org/) format. These messages are used to automatically generate release versions and release notes.
+
+Format:
 
 ```
 <type>(<scope>): <description>
@@ -59,17 +61,19 @@ Allowed types: `feat`, `fix`, `build`, `chore`, `ci`, `docs`, `style`, `refactor
 
 ## Testing
 
-All tests must pass before submitting any changes. The test suite runs via GitHub Actions, and contributions will not be merged unless all tests are green.
+All tests must pass before submitting any changes. The test suite runs via [GitHub Actions](https://github.com/${REPOSITORY}/actions), and contributions will not be merged unless all tests are successful.
 
-- Run tests locally before pushing changes.
+- Add suitable test cases for any new functionality or changes.
 - Test files are located in the [.github/workflows/test.yml](.github/workflows/test.yml) directory.
+- Run tests locally before pushing changes.
 
 ## Submitting Changes
 
 1. Fork the repository and create a new branch.
-2. Ensure all tests pass.
-3. Submit a pull request (PR) with a clear description.
-4. Your PR will be reviewed, and you may be asked to make adjustments before merging.
+2. Stick to the commit guidelines.
+3. Ensure all tests pass.
+4. Submit a pull request (PR) with a clear description.
+5. Your PR will be reviewed, and you may be asked to make adjustments before merging.
 
 ## Code of Conduct
 
