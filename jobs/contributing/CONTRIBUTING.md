@@ -20,7 +20,10 @@ We encourage all kinds of contributions, from bug reports to feature requests an
 
 ## Reporting Bugs
 
-Bugs should be reported via [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues). A good bug report should include:
+Before reporting a bug, please check the existing issues on [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues?q=label%3Abug) to avoid duplicates. If your issue is not listed, you can report it via [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues/new). A good bug report should include:
+
+
+Bugs should be reported via . A good bug report should include:
 
 - Clear steps to reproduce the issue
 - Expected vs. actual behavior
@@ -29,7 +32,7 @@ Bugs should be reported via [GitHub Issues](https://github.com/escalate/${REPOSI
 
 ## Suggesting Enhancements
 
-Enhancement suggestions should also be submitted through [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues) and should include:
+Before suggesting an enhancement, please check the existing issues on [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues?q=label%3Aenhancement) to avoid duplicates. If your suggestion is not listed, enhancement suggestions should also be submitted through [GitHub Issues](https://github.com/escalate/${REPOSITORY}/issues/new) and should include:
 
 - A clear and descriptive title
 - A detailed explanation of the suggested enhancement
