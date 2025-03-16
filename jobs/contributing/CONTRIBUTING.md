@@ -9,6 +9,7 @@ First off, thanks for taking the time to contribute! ❤️ We appreciate your e
 - [Suggesting Enhancements](#suggesting-enhancements)
 - [Commit Guidelines](#commit-guidelines)
 - [Testing](#testing)
+- [Development Environment](#development-environment)
 - [Submitting Changes](#submitting-changes)
 - [Code of Conduct](#code-of-conduct)
 
