@@ -53,7 +53,7 @@ Example:
 feat(auth): add OAuth2 support
 ```
 
-Allowed types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`.
+Allowed types: `feat`, `fix`, `build`, `chore`, `ci`, `docs`, `style`, `refactor`, `perf`, `test`
 
 ## Testing
 
