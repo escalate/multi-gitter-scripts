@@ -1,3 +1,5 @@
+[![Test](https://github.com/escalate/multi-gitter-scripts/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/multi-gitter-scripts/actions/workflows/test.yml)
+
 # multi-gitter Scripts
 
 Central management of my git repositories via [multi-gitter](https://github.com/lindell/multi-gitter) scripts.
