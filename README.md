@@ -6,6 +6,8 @@ Central management of my git repositories via [multi-gitter](https://github.com/
 
 ## How to run a job
 
+Generate a short-lived [GitHub classic token](https://github.com/settings/tokens/new) with the scope `repo` for multi-gitter.
+
 ```
 export GITHUB_TOKEN="REDACTED"
 export GITHUB_USER="escalate"
